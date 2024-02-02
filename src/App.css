@@ -1,0 +1,47 @@
+body
+{
+  margin-top:10px ;
+}
+.cal {
+  text-align: center;
+  background-color: black;
+  width: 25%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.cal input 
+{
+  margin-top: 15px;
+}
+
+input {
+  margin-top: 10px;
+  width: 200px;
+  padding: 10px 10px;
+  background-color: rgba(223, 223, 223, 0.4);
+  border: 3px solid white;
+  color: white;
+  border-radius: 20px;
+}
+
+input[type="button"] {
+  padding: 15px;
+  border: none;
+  transition: 0.5s;
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  color: white;
+}
+
+
+input[type="button"].btn1 {
+  width: 105px;
+}
+
+input[type="button"].btn2 {
+  margin-bottom: 10px;
+}
